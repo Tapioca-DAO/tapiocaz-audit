@@ -1,6 +1,6 @@
 [submodule "tapioca-sdk"]
 	path = gitsub_tapioca-sdk
-	url = https://github.com/Tapioca-DAO/tapioca-sdk.git
+	url = https://github.com/Tapioca-DAO/tapioca-sdk-audit.git
 [submodule "tapioca-periph"]
 	path = tapioca-periph
-	url = https://github.com/Tapioca-DAO/tapioca-periph.git
+	url = https://github.com/Tapioca-DAO/tapioca-periph-audit.git

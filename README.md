@@ -6,6 +6,11 @@ Tapioca harnessing LayerZero omni-chain infrastructure 🤯
 - [TapiocaOFT](docs/TapiocaOFT.md) `OFT20`, Layer-Zero superset of `ERC20`. Handles the `wrap` and `unwrap` of a desired `ERC20`.
 
 *Note: Current tasks/contracts are designed so that a TOFT works best on a support LZ chain and Optimism only*
+
+## Repo setup
+1. Fill in `.env`
+2. `git submodule update --init`
+
 ## Flow of deployment 
 1. Deploy the `TapiocaWrapper` contract on the host chain of the `ERC20`, and the chain where you want it to be present too.
 ```
