@@ -11,6 +11,8 @@ import "tapioca-periph/contracts/interfaces/ITapiocaOFT.sol";
 
 import "../BaseTOFTStorage.sol";
 
+/// @title tOFT strategy module
+/// @notice tOFT module for YieldBox type actions
 contract BaseTOFTStrategyModule is BaseTOFTStorage {
     using SafeERC20 for IERC20;
     using BytesLib for bytes;

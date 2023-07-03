@@ -16,6 +16,8 @@ import "tapioca-periph/contracts/interfaces/ITapiocaOptionLiquidityProvision.sol
 
 import "../BaseTOFTStorage.sol";
 
+/// @title tOFT leverage module
+/// @notice tOFT module for leverage type actions
 contract BaseTOFTLeverageModule is BaseTOFTStorage {
     using SafeERC20 for IERC20;
     using BytesLib for bytes;

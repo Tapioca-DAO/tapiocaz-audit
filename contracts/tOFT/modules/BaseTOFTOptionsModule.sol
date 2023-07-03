@@ -11,6 +11,8 @@ import "tapioca-periph/contracts/interfaces/ITapiocaOptionsBroker.sol";
 // import {ITapiocaOptionsBrokerCrossChain} from "tapioca-periph/contracts/interfaces/ITapiocaOptionsBroker.sol";
 import "../BaseTOFTStorage.sol";
 
+/// @title tOFT options module
+/// @notice tOFT module for oTAP type actions
 contract BaseTOFTOptionsModule is BaseTOFTStorage {
     using SafeERC20 for IERC20;
 
