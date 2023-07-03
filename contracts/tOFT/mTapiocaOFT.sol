@@ -2,6 +2,10 @@
 pragma solidity ^0.8.18;
 import "./BaseTOFT.sol";
 
+/// @title mtOFT contract
+/// @notice mtOFT wrapper contract
+/// @dev transforms a normal ERC20 or the native gas token into an OFTV2 type contract
+///      - wrapping & unwrapping of the ERC20/the gas token can happen on multiple chains defined by the `connectedChains` mapping
 contract mTapiocaOFT is BaseTOFT {
     using SafeERC20 for IERC20;
 

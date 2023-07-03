@@ -15,6 +15,8 @@ import "tapioca-periph/contracts/interfaces/IPermitAll.sol";
 
 import "../BaseTOFTStorage.sol";
 
+/// @title tOFT market module
+/// @notice tOFT module for market type actions
 contract BaseTOFTMarketModule is BaseTOFTStorage {
     using SafeERC20 for IERC20;
     using BytesLib for bytes;

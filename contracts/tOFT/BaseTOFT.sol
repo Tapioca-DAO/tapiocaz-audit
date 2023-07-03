@@ -9,6 +9,9 @@ import "./modules/BaseTOFTStrategyModule.sol";
 import "./modules/BaseTOFTMarketModule.sol";
 import "./modules/BaseTOFTOptionsModule.sol";
 
+/// @title BaseTOFT contract 
+/// @notice Common tOFT capabilitites
+/// @dev all LayerZero methods are defined here
 contract BaseTOFT is BaseTOFTStorage, ERC20Permit {
     using SafeERC20 for IERC20;
     using BytesLib for bytes;

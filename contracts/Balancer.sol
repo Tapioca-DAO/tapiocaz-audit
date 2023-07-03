@@ -28,7 +28,9 @@ import "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
 //         ####*  (((((((((((((((((((
 //                     ,**//*,.
 
-/// Transfers tokens to other layers through Stargate
+/// @title Rebalancing contract
+/// @notice Balances linked tOFT underlying token between the connected chains
+/// @dev transfers tokens to other layers through Stargate
 contract Balancer is Owned {
     // ************ //
     // *** VARS *** //

@@ -16,6 +16,8 @@ import "tapioca-periph/contracts/interfaces/ITapiocaOFT.sol";
 import "tapioca-periph/contracts/interfaces/ICommonData.sol";
 import {IUSDOBase} from "tapioca-periph/contracts/interfaces/IUSDO.sol";
 
+/// @title tOFT storage module
+/// @notice tOFT storage 
 contract BaseTOFTStorage is OFTV2 {
     // ************ //
     // *** VARS *** //
